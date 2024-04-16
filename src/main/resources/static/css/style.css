@@ -1,0 +1,41 @@
+body {
+    background-image: url("../images/strom2.jpg");
+    background-size: cover; /* obrázek pokryje celou plochu pozadí */
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    padding-top: 100px;
+    margin: 0;
+}
+
+p {
+    font-size: 2.2em;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-container img {
+    transform: scale(0.4);
+}
+
+#contact-label {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #007bff;
+    color: #9b0d0d;
+    cursor: pointer;
+    margin-top: 20px;
+}
